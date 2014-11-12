@@ -18,6 +18,15 @@
 @import "bootstrap";
 @import "font-awesome";
 
+body {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+}
+
+h1, .navbar-brand {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+}
 
 .navbar-right {
   margin-right: 0px;
@@ -28,8 +37,9 @@
     margin-bottom: 0;
 }
 
-#review-title {
+#review-title, #restoname {
   display: inline-block;
+  margin: 10px;
 }
 
 #review-top > a.btn {
@@ -43,4 +53,12 @@
 
 .comment {
   margin-bottom: 20px;
+}
+
+.restaurantlistdetails {
+  margin: 20px 0 10px 10px;
+}
+
+.alert {
+  margin-bottom: 0px;
 }

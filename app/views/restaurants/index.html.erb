@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-8 col-xs-offset-1">
+    <h1>Liste des Restos</h1>
+
+    <% @restaurants.each do |restaurant| %>
+    <h2><%= link_to restaurant.name, restaurant_path(restaurant) %></h2><span class="nbreviews"><i class="fa fa-comments"></i> <%= restaurant.reviews.count %></span>
+    <div><i class="fa fa-home"></i> <%= restaurant.address %></div>
+    <div class="category"><i class="fa fa-fire"></i>  <%= restaurant.category %></div>
+    <div class="phone"><i class="fa fa-phone"></i> <%= restaurant.phone %></div>
+    <% end %>
+    </div>
+  </div>
+</div>

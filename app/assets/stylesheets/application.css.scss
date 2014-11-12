@@ -13,3 +13,34 @@
  *= require_tree .
  *= require_self
  */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome";
+
+
+.navbar-right {
+  margin-right: 0px;
+  margin-top: 5px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+#review-title {
+  display: inline-block;
+}
+
+#review-top > a.btn {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#review-top {
+  margin-bottom: 30px;
+}
+
+.comment {
+  margin-bottom: 20px;
+}
